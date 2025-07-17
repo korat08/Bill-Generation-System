@@ -1,0 +1,47 @@
+# === Maven ===
+target/
+*.class
+*.log
+
+# Maven Wrapper (optional – remove if not using wrapper)
+.mvn/
+mvnw
+mvnw.cmd
+.mvn/wrapper/maven-wrapper.jar
+
+# === Spring Boot Properties ===
+src/main/resources/application.properties
+.env
+
+# === Eclipse / Spring Tool Suite (STS) ===
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+# === IntelliJ IDEA ===
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# === NetBeans ===
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+# === Visual Studio Code ===
+.vscode/
+
+# === System files ===
+.DS_Store
+Thumbs.db
+
+# === Vim ===
+*.swp
