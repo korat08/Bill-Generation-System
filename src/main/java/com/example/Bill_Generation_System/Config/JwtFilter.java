@@ -27,7 +27,6 @@ import java.util.Map;
 @Component
 public class JwtFilter extends OncePerRequestFilter {
 
-
     @Autowired
     JwtService jwtService;
 
